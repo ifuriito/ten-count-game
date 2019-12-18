@@ -14,8 +14,8 @@ jobs:
           command: pwd && ls -la
 
       - run:
-          name: 'hello world'
-          command: echo 'hello world'
+          name: test.php
+          command: php -l .cicleci/test.php
 
 
 
