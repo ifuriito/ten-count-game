@@ -11,5 +11,6 @@ jobs:
 
       - run:
           name: pwd
-          command: pwd
+          command: pwd && ls -la
+
 
