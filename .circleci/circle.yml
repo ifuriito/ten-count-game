@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-       - image: circleci/php:7.3-stretcht
+      - image: centos:latest
 
     working_directory: ~/repo
 
@@ -15,7 +15,6 @@ jobs:
 
       - run:
           name: 'hello world'
-          command: echo 'hello world'
-
+          command: php -l .cicleci/test.php
 
 
