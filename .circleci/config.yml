@@ -15,7 +15,7 @@ jobs:
 
       - run:
           name: test.php
-          command: php -l .cicleci/test.php
+          command: php -l .circleci/test.php
 
 
 
